@@ -164,4 +164,4 @@ margin: auto;
 
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
 
-The box model is essentially a box that wraps around every HTML element. Every box is composed of four parts (content, padding, border, and margin) we can manipulate to shape the box. Max-width can be used to force elements to respect the width value we've given them. 
+The box model is essentially a box that wraps around every element. Every box is composed of four parts (content, padding, border, and margin) we can manipulate to shape the box. box-sizing:border-box; can be used to force elements to respect the width value we've given them. 
